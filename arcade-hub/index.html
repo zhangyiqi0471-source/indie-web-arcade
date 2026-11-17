@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Indie Web Arcade — Instant Play Micro-Games</title>
+  <style>
+    body {
+      margin: 0; background: #070a13; color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .container { max-width: 1140px; margin: 0 auto; padding: 44px 20px 80px; }
+    header { text-align: center; margin-bottom: 44px; }
+    header h1 { font-size: 42px; margin: 0 0 10px; font-weight: 900; }
+    header p { color: #94a3b8; font-size: 17px; margin: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 24px; }
+    .game-card {
+      background: #111827; border: 1px solid rgba(148,163,184,0.16);
+      border-radius: 18px; overflow: hidden; display: flex; flex-direction: column;
+      transition: transform 0.18s ease, border-color 0.18s ease;
+    }
+    .game-card:hover { transform: translateY(-4px); border-color: rgba(139,92,246,0.55); }
+    .cover { width: 100%; aspect-ratio: 630 / 500; object-fit: cover; display: block; background: #090d16; }
+    .body { padding: 20px; display: flex; flex-direction: column; flex: 1; }
+    .meta { display: flex; justify-content: space-between; font-size: 12px; font-weight: 700; color: #a78bfa; margin-bottom: 8px; }
+    .price { color: #34d399; font-size: 14px; }
+    .body h2 { margin: 0 0 8px; font-size: 21px; }
+    .body p { margin: 0 0 18px; color: #94a3b8; font-size: 14px; line-height: 1.5; flex: 1; }
+    .actions { display: flex; gap: 10px; }
+    .btn-play, .btn-buy {
+      flex: 1; text-align: center; padding: 10px 12px; border-radius: 10px;
+      text-decoration: none; font-weight: 700; font-size: 13px;
+    }
+    .btn-play { background: #1e293b; color: #f8fafc; border: 1px solid #334155; }
+    .btn-buy { background: linear-gradient(135deg, #7c3aed, #4f46e5); color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚡ Indie Web Arcade</h1>
+      <p>Play handcrafted micro-games instantly in your browser · Try free, unlock your favorites forever.</p>
+    </header>
+    <div class="grid">
+      
+        <article class="game-card">
+          <a href="../neon-survivor/storefront/index.html">
+            <img class="cover" src="../neon-survivor/storefront/cover.svg" alt="Neon Void Survivor" />
+          </a>
+          <div class="body">
+            <div class="meta"><span>Bullet-Heaven / Arcade Roguelike</span><span class="price">$9.99</span></div>
+            <h2>Neon Void Survivor</h2>
+            <p>Dash, auto-fire plasma orbitals, and survive escalating cyber-swarms in 60 FPS HTML5 Canvas.</p>
+            <div class="actions">
+              <a class="btn-play" href="../neon-survivor/storefront/index.html">▶ Play Free Demo</a>
+              <a class="btn-buy" href="https://zhangyiqi0471-source.github.io/indie-web-arcade/mock-checkout/?slug=neon-survivor&amp;title=Neon+Void+Survivor&amp;price=9.99&amp;redirect=https%3A%2F%2Fzhangyiqi0471-source.github.io%2Findie-web-arcade%2Fneon-survivor%2Fstorefront%2Fplay%2Findex.html%3Fgp_unlock%3D339a989390844a3ec253">Buy $9.99</a>
+            </div>
+          </div>
+        </article>
+        
+    </div>
+  </div>
+</body>
+</html>

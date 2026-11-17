@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "neon-survivor",
+    "title": "Neon Void Survivor",
+    "tagline": "Dash, auto-fire plasma orbitals, and survive escalating cyber-swarms in 60 FPS HTML5 Canvas.",
+    "genre": "Bullet-Heaven / Arcade Roguelike",
+    "price_usd": 9.99,
+    "trial_seconds": 30,
+    "version": "1.0.0",
+    "checkout_url": "https://zhangyiqi0471-source.github.io/indie-web-arcade/mock-checkout/?slug=neon-survivor&title=Neon+Void+Survivor&price=9.99&redirect=https%3A%2F%2Fzhangyiqi0471-source.github.io%2Findie-web-arcade%2Fneon-survivor%2Fstorefront%2Fplay%2Findex.html%3Fgp_unlock%3D339a989390844a3ec253",
+    "storefront_rel_url": "../neon-survivor/storefront/index.html",
+    "play_rel_url": "../neon-survivor/storefront/play/index.html",
+    "cover_rel_url": "../neon-survivor/storefront/cover.svg",
+    "updated_at": "2026-11-17T18:55:49.028061+00:00"
+  }
+]

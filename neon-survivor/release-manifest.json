@@ -1,0 +1,50 @@
+{
+  "slug": "neon-survivor",
+  "title": "Neon Void Survivor",
+  "version": "1.0.0",
+  "packaged_at": "2026-11-17T18:55:49.027789+00:00",
+  "manifest": {
+    "slug": "neon-survivor",
+    "title": "Neon Void Survivor",
+    "tagline": "Dash, auto-fire plasma orbitals, and survive escalating cyber-swarms in 60 FPS HTML5 Canvas.",
+    "description": "Neon Void Survivor is a fast-paced cyber-arcade bullet-heaven roguelike built in pure HTML5 Canvas. Dodge geometry swarms, collect XP shards to evolve your plasma weapon, and push past Wave 3 in the Full Edition!",
+    "version": "1.0.0",
+    "price_usd": 9.99,
+    "trial_seconds": 30,
+    "genre": "Bullet-Heaven / Arcade Roguelike",
+    "tags": [
+      "roguelike",
+      "arcade",
+      "bullet-heaven",
+      "html5",
+      "cyberpunk",
+      "indie"
+    ],
+    "author": "Indie Arcade Studio",
+    "ai_disclosure": {
+      "uses_generative_ai_assets": false,
+      "code_assisted": true,
+      "notes": "Procedural vector graphics and WebAudio synth effects; zero external AI-generated art/audio assets."
+    }
+  },
+  "payment": {
+    "provider": "mock",
+    "mode": "sandbox",
+    "price_usd": 9.99,
+    "product_id": "prod_mock_neon-survivor",
+    "checkout_url": "https://zhangyiqi0471-source.github.io/indie-web-arcade/mock-checkout/?slug=neon-survivor&title=Neon+Void+Survivor&price=9.99&redirect=https%3A%2F%2Fzhangyiqi0471-source.github.io%2Findie-web-arcade%2Fneon-survivor%2Fstorefront%2Fplay%2Findex.html%3Fgp_unlock%3D339a989390844a3ec253",
+    "success_redirect_url": "https://zhangyiqi0471-source.github.io/indie-web-arcade/neon-survivor/storefront/play/index.html?gp_unlock=339a989390844a3ec253",
+    "unlock_token": "339a989390844a3ec253",
+    "license_verify_endpoint": "https://zhangyiqi0471-source.github.io/indie-web-arcade/api/verify-license",
+    "sample_test_license_key": "GP-NEONSURV-DEMO2026-B24DA0D8BC"
+  },
+  "artifacts": {
+    "storefront_dir": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/storefront",
+    "storefront_index": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/storefront/index.html",
+    "playable_entry": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/storefront/play/index.html",
+    "cover_svg": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/storefront/cover.svg",
+    "itch_demo_zip": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/itch/neon-survivor-html5-demo.zip",
+    "itch_full_zip": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/itch/neon-survivor-full-offline.zip",
+    "marketing_dir": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/marketing"
+  }
+}

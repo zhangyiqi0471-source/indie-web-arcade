@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 500" width="630" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="630" height="500" fill="url(#bg)"/>
+  <g stroke="rgba(148,163,184,0.10)" stroke-width="1">
+    <line x1="0" y1="100" x2="630" y2="100"/><line x1="0" y1="200" x2="630" y2="200"/>
+    <line x1="0" y1="300" x2="630" y2="300"/><line x1="0" y1="400" x2="630" y2="400"/>
+    <line x1="126" y1="0" x2="126" y2="500"/><line x1="252" y1="0" x2="252" y2="500"/>
+    <line x1="378" y1="0" x2="378" y2="500"/><line x1="504" y1="0" x2="504" y2="500"/>
+  </g>
+  <circle cx="520" cy="110" r="140" fill="rgba(168,85,247,0.16)"/>
+  <circle cx="110" cy="410" r="160" fill="rgba(56,189,248,0.12)"/>
+  <rect x="44" y="46" width="210" height="32" rx="16" fill="rgba(168,85,247,0.22)" stroke="#a855f7"/>
+  <text x="149" y="67" text-anchor="middle" fill="#e9d5ff" font-family="system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">BULLET-HEAVEN / ARCADE ROG</text>
+  <text x="44" y="235" fill="#ffffff" font-family="system-ui,sans-serif" font-size="48" font-weight="900">Neon Void Survivor</text>
+  <rect x="44" y="258" width="160" height="6" rx="3" fill="url(#accent)"/>
+  <text x="44" y="305" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="18" font-weight="500">Dash, auto-fire plasma orbitals, and survive escalating </text>
+  <rect x="44" y="395" width="240" height="54" rx="12" fill="url(#accent)"/>
+  <text x="164" y="429" text-anchor="middle" fill="#090d16" font-family="system-ui,sans-serif" font-size="18" font-weight="800">PLAY INSTANTLY · $9.99</text>
+</svg>

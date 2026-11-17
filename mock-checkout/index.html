@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Sandbox Checkout — Indie Web Arcade</title>
+  <style>
+    body { margin:0; background:#090d16; color:#f8fafc; font-family:system-ui,sans-serif; display:flex; align-items:center; justify-content:center; min-height:100vh; padding:20px; }
+    .box { max-width:460px; width:100%; background:#111827; border:1px solid #334155; border-radius:20px; padding:32px; box-shadow:0 24px 60px rgba(0,0,0,0.6); }
+    .tag { display:inline-block; background:rgba(16,185,129,0.15); color:#34d399; padding:4px 10px; border-radius:999px; font-size:12px; font-weight:700; margin-bottom:12px; }
+    h1 { margin:0 0 6px; font-size:24px; }
+    .price { font-size:34px; font-weight:900; color:#fff; margin:14px 0 20px; }
+    .note { background:#070a13; border:1px dashed #475569; border-radius:10px; padding:12px; font-size:13px; color:#94a3b8; margin-bottom:20px; line-height:1.5; }
+    .btn { display:block; width:100%; box-sizing:border-box; text-align:center; padding:14px; border-radius:12px; background:linear-gradient(135deg,#10b981,#059669); color:#052e16; font-weight:800; font-size:16px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <span class="tag">CREEM.IO SANDBOX PREVIEW</span>
+    <h1 id="game-title">Full Game Unlock</h1>
+    <div style="color:#94a3b8;font-size:14px;">Supports Alipay (支付宝) · Apple Pay · Visa / Mastercard once CREEM_API_KEY is active</div>
+    <div class="price" id="game-price">$9.99 <span style="font-size:14px;color:#94a3b8;font-weight:500;">USD</span></div>
+    <div class="note">Sandbox Mode: Click below to simulate a successful Creem.io payment and trigger instant redirect auto-unlock!</div>
+    <a class="btn" id="complete-btn" href="../arcade-hub/index.html">✓ Simulate Payment &amp; Unlock Full Game</a>
+  </div>
+  <script>
+    const p = new URLSearchParams(window.location.search);
+    if (p.get("title")) document.getElementById("game-title").textContent = p.get("title") + " — Full Game";
+    if (p.get("price")) document.getElementById("game-price").innerHTML = "$" + p.get("price") + ' <span style="font-size:14px;color:#94a3b8;font-weight:500;">USD</span>';
+    if (p.get("redirect")) document.getElementById("complete-btn").href = p.get("redirect");
+  </script>
+</body>
+</html>
