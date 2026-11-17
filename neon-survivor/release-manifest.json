@@ -2,7 +2,7 @@
   "slug": "neon-survivor",
   "title": "Neon Void Survivor",
   "version": "1.0.0",
-  "packaged_at": "2026-11-17T18:55:49.027789+00:00",
+  "packaged_at": "2026-11-17T19:05:47.431952+00:00",
   "manifest": {
     "slug": "neon-survivor",
     "title": "Neon Void Survivor",
@@ -28,15 +28,14 @@
     }
   },
   "payment": {
-    "provider": "mock",
-    "mode": "sandbox",
+    "provider": "creem",
+    "mode": "test",
     "price_usd": 9.99,
-    "product_id": "prod_mock_neon-survivor",
-    "checkout_url": "https://zhangyiqi0471-source.github.io/indie-web-arcade/mock-checkout/?slug=neon-survivor&title=Neon+Void+Survivor&price=9.99&redirect=https%3A%2F%2Fzhangyiqi0471-source.github.io%2Findie-web-arcade%2Fneon-survivor%2Fstorefront%2Fplay%2Findex.html%3Fgp_unlock%3D339a989390844a3ec253",
+    "product_id": "prod_3vKGjRdMwA1dMnDjplbeAc",
+    "checkout_url": "https://creem.io/test/checkout/prod_3vKGjRdMwA1dMnDjplbeAc/ch_6svVlfDzChGf2ohJCnZOu5",
     "success_redirect_url": "https://zhangyiqi0471-source.github.io/indie-web-arcade/neon-survivor/storefront/play/index.html?gp_unlock=339a989390844a3ec253",
     "unlock_token": "339a989390844a3ec253",
-    "license_verify_endpoint": "https://zhangyiqi0471-source.github.io/indie-web-arcade/api/verify-license",
-    "sample_test_license_key": "GP-NEONSURV-DEMO2026-B24DA0D8BC"
+    "license_verify_endpoint": ""
   },
   "artifacts": {
     "storefront_dir": "/Users/zhangyiqi/.gemini/antigravity/scratch/game-publish-engine/dist/neon-survivor/storefront",
